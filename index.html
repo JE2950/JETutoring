@@ -164,8 +164,10 @@
   /* ── ABOUT ── */
   .about {
     background: var(--parchment);
-    display: grid; grid-template-columns: 1fr 1fr;
-    gap: 5rem; align-items: center;
+    display: block;
+  }
+  .about-text {
+    max-width: 820px;
   }
   .about-text p {
     font-size: 0.95rem; line-height: 1.9;
@@ -439,8 +441,6 @@
 
     section { padding: 3.5rem 1.5rem; }
 
-    .about { grid-template-columns: 1fr; gap: 2rem; }
-    .about-image { display: none; } /* photo already in hero */
 
     .subjects-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
 
